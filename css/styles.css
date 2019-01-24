@@ -102,7 +102,7 @@ nav h1 a {
 }
 /* ====================== Map ====================== */
 #map {
-  height: 400px;
+  height: 500px;
   width: 100%;
   background-color: #ccc;
 }
@@ -246,7 +246,7 @@ nav h1 a {
   font-weight: 300;
   letter-spacing: 10px;
   margin: 0 0 20px;
-  padding: 10px 10px;
+  padding: 10px 2px;
   text-align: left;
   text-transform: uppercase;
 	width: 90%;

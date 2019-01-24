@@ -210,3 +210,34 @@ addMarkersToMap = (restaurants = self.restaurants) => {
   });
 } */
 
+
+
+/**
+ * Add Service Worker
+  Code reuse: This was my first service worker and I took code from the two different youtube tutorials to create it
+  Some code Mohamed Riaad study jam at https://www.youtube.com/watch?v=TxXwlOAXUko and https://www.youtube.com/watch?v=BfL3pprhnms
+**/
+ if('serviceWorker' in navigator){
+  navigator.serviceWorker.register('./sW.js')
+  .then((registration) =>{
+      //reg succeeded
+      if(registration.installing){
+        console.log('Service Worker is installing');
+      } else if(registration.waiting){
+        console.log('Service Worker has been installed');
+      } else if(registration.active){
+        console.log('Service Worker is acitve');
+      }
+   console.log('Registration succeeded. The scope is', registration.scope); 
+  }).catch((err) => {
+    //reg failed
+    console.log('Registration failed with error', err);
+  });
+ }
+
+
+// Some Code reused or bits taken from the following sources:
+// The starter code for this project comes from the following Udacity GitHub address of https://github.com/udacity/mws-restaurant-stage-1 repo and I cloned it.
+// Some code Mohamed Riaad study jam at https://www.youtube.com/watch?v=TxXwlOAXUko 
+// Some code from Daniela Kuester project https://github.com/DanielaKuester/Udacity-Project06-Restaurant-Reviews
+// Some code from the walkthrough tutorials blogs by Matthew Cranford at https://matthewcranford.com.
