@@ -1,5 +1,14 @@
+
+<!--Author: Martha Taylor
+Project 6 Restaurant Review App
+Code reused from the following sources:
+The starter code for this project comes from the following Udacity GitHub address of https://github.com/udacity/mws-restaurant-stage-1 repo. I forked it to my git repo and cloned it.
+Some code Mohamed Riaad study jam at https:www.youtube.com/watch?v=TxXwlOAXUko 
+Some code from Daniela Kuester project https://github.com/DanielaKuester/Udacity-Project06-Restaurant-Reviews
+Some code from the walkthrough tutorials blogs by Matthew Cranford at https://matthewcranford.com. -->
+
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
   <!-- Normalize.css for better cross-browser consistency -->
@@ -12,13 +21,13 @@
 
 <body class="inside">
   <!-- Beginning header -->
-  <header>
+  <header tabindex="0">
     <!-- Beginning nav -->
     <nav>
       <h1><a href="/">Restaurant Reviews</a></h1>
     </nav>
     <!-- Beginning breadcrumb -->
-    <ul id="breadcrumb" >
+    <ul id="breadcrumb" tabindex="1">
       <li><a href="/">Home</a></li>
     </ul>
     <!-- End breadcrumb -->
@@ -27,20 +36,20 @@
   <!-- End header -->
 
   <!-- Beginning main -->
-  <main id="maincontent">
+  <main id="maincontent" tabindex="3">
     <!-- Beginning map -->
-    <section id="map-container">
+    <section id="map-container" aria-role="map displayed">
       <div id="map"></div>
     </section>
     <!-- End map -->
     <!-- Beginning restaurant -->
     <section id="restaurant-container" tabindex="-1">
 
-      <h1 id="restaurant-name" tabindex="0"></h1>
-      <img id="restaurant-img" tabindex="0" alt="image of restaurant">
+      <h1 id="restaurant-name" tabindex="0"></h1> 
+      <img id="restaurant-img" alt="image of restaurant" tabindex="0">
       <p id="restaurant-cuisine" tabindex="0"></p>
       <p id="restaurant-address" tabindex="0"></p>
-      <table id="restaurant-hours" aria-role="restaurant opening hours" tabindex="0"></table>
+      <table id="restaurant-hours" aria-label="restaurant opening hours" tabindex="0"></table>
 
     </section>
     <!-- end restaurant -->
@@ -54,7 +63,7 @@
   <!-- End main -->
 
   <!-- Beginning footer -->
-  <footer id="footer">
+  <footer id="footer" tabindex="4">
     Copyright (c) 2017 <a href="/"><strong>Restaurant Reviews</strong></a> All Rights Reserved.
   </footer>
   <!-- End footer -->
