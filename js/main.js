@@ -238,5 +238,4 @@ addMarkersToMap = (restaurants = self.restaurants) => {
 // Some Code reused or bits taken from the following sources:
 // The starter code for this project comes from the following Udacity GitHub address of https://github.com/udacity/mws-restaurant-stage-1 repo and I cloned it.
 // Some code Mohamed Riaad study jam at https://www.youtube.com/watch?v=TxXwlOAXUko 
-// Some code from Daniela Kuester project https://github.com/DanielaKuester/Udacity-Project06-Restaurant-Reviews
 // Some code from the walkthrough tutorials blogs by Matthew Cranford at https://matthewcranford.com.
