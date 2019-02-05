@@ -6,6 +6,7 @@
 - [Project Overview](#ProjectOverview)
 - [What I implemented](#WhythisProject?)
 - [Built With](#BuiltWith)
+- [Live View](#LiveView)
 - [Installation](#Installation)
 - [External Code Used in this Project](#ExternalCodeUsedinthisProject)
 - [Credits](#credits)
@@ -15,7 +16,7 @@
 
 
 
-# Project Overview
+## Project Overview
 
 The Udacity overview for this project states: In this project we were given a buggy boiler plate unresponsive and inaccessible restaurant review application.
 
@@ -34,10 +35,14 @@ Languages:
 
 HTML
 CSS
-JavaScript
+JavaScript ES6
 
 API taken data from
 [leafletjs](https://leafletjs.com/) with [Mapbox](https://www.mapbox.com/) 
+
+## Live View
+
+To view a live preview of the website go [here](https://marthataylor.github.io/mws-restaurant-stage-1/)
 
 ## Installation
 
@@ -63,7 +68,7 @@ The Udacity course work, written tutorials by Mathew Cranford, MDN Documentation
 
 This repository uses [leafletjs](https://leafletjs.com/) with [Mapbox](https://www.mapbox.com/). Which have made the api map rendering posible.
 
-# Acknowledgements
+## Acknowledgements
 
 Big thanks to all who support me during my projects at Udacity, at home and on the web. 
 
@@ -71,13 +76,13 @@ Especially my student group at Udacity/Google Scholarship Slack workspace and al
 
 A special shout out to the talented Mohammad Riaad for going the extra mile with his youtube video tutorial walkthroughs from Udacity. Your talkkthrough explanation add insigts and extra resources always add power to our pack.
 
-# Contributing
+## Contributing
 
 This repository is one of my projects as a Udacity student. Therefore, I most likely will not accept pull requests.
 
 For details, look at the file in his repo called [CONTRIBUTING.md](CONTRIBUTING.md) in this project repository.
 
-# License
+## License
 (c) Martha Taylor 2018.
 
 This repository is licensed under the [MIT license](https://choosealicense.com/licenses/mit/#). For further information see the LICENSE file in this project repository.
