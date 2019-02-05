@@ -42,7 +42,7 @@ API taken data from
 
 ## Live View
 
- Be aware you need to download the project and run a server for the web functionality to work, if you wish to do this follow the steps outlined in the next section called "Installation" . However you if you sh to view a live preview of the skelton structure of the website go [here](https://marthataylor.github.io/mws-restaurant-stage-1/) 
+ Be aware you need to download the project and run a server for the web functionality to work, if you wish to do this follow the steps outlined in the next section called "Installation". However you if you wish to view a live preview of the skelton structure of the website you can view it by clicking [here](https://marthataylor.github.io/mws-restaurant-stage-1/) 
 
 ## Installation
 
