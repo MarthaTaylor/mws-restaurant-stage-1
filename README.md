@@ -42,11 +42,11 @@ API taken data from
 
 ## Live View
 
-To view a live preview of the website go [here](https://marthataylor.github.io/mws-restaurant-stage-1/)
+ Be aware you need to download the project and run a server for the web functionality to work, if you wish to do this follow the steps outlined in the next section called "Installation" . However you if you sh to view a live preview of the skelton structure of the website go [here](https://marthataylor.github.io/mws-restaurant-stage-1/) 
 
 ## Installation
 
-1. Fok and clone this repository to your local computer.
+1. Fork and clone this repository to your local computer.
 2. Next you need to open GitBash and cd into the project.
 3. You need to run a server to use the service worker, render the api and access all the applications pages. There are a number of options depending on your system environment.
 *In this folder, start up a simple HTTP server to serve up the site files on your local computer. Python has some simple tools to do this,and you don't even need to know Python. For most people, it's already installed on your computer.
@@ -85,4 +85,4 @@ For details, look at the file in his repo called [CONTRIBUTING.md](CONTRIBUTING.
 ## License
 (c) Martha Taylor 2018.
 
-This repository is licensed under the [MIT license](https://choosealicense.com/licenses/mit/#). For further information see the LICENSE file in this project repository.
+This repository is licensed under the [MIT license](https://choosealicense.com/licenses/mit/#). For further information see the [LICENSE.txt](LICENSE.txt) file in this project repository.
