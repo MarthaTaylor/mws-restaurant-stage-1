@@ -35,7 +35,7 @@ Languages:
 
 HTML
 CSS
-JavaScript ES6
+JavaScript ES6 & ES5
 
 API taken data from
 [leafletjs](https://leafletjs.com/) with [Mapbox](https://www.mapbox.com/) 
