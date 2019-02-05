@@ -43,7 +43,7 @@
  		);
  });
 
-// activate event is waiting until the inner code is resolved before continuing so it will  delete old caches of restaur names and store new ones
+// using ES5 activate event is waiting until the inner code is resolved before continuing so it will  delete old caches of restaur names and store new ones
 self.addEventListener('activate', function(e){
 	
 		e.waitUntil(
@@ -64,8 +64,7 @@ self.addEventListener('activate', function(e){
 		);
 });
 
-
-//would this es6 work ok?
+//using ES6, activate event is waiting until the inner code is resolved before continuing so it will  delete old caches of restaur names and store new ones
 // self.addEventListener('activate', (e) => {
 // 		e.waitUntil(
 // 			caches.keys().then((cacheNames) => {
@@ -74,6 +73,27 @@ self.addEventListener('activate', function(e){
 // 						return cacheName.startsWith('restaurant') &&
 // 						cacheName !== mainCacheName;
 // 					}).map( (cacheName) => {
+// 						 return caches.delete(cacheName);
+// 					   })
+// 				);
+// 			})
+// 		);
+// });
+
+// // using ES5 activate event is waiting until the inner code is resolved before continuing so it will  delete old caches of restaur names and store new ones
+// self.addEventListener('activate', function(e){
+	
+// 		e.waitUntil(
+// 			//searching through all the keys in the cache
+// 			caches.keys().then(function(cacheNames){
+// 				//do a promise all to loop through cache and resolve next few lines of code requests
+// 				return Promise.all( 
+// 					//filter through array of caches to create a new list of latest restaurant names
+// 					cacheNames.filter(function(cacheName){
+// 						return cacheName.startsWith('restaurant-') &&
+// 						cacheName !== mainCacheName;
+// 						//crete a new array of caches after old ones are deleted with the new service worker
+// 					}).map( function (cacheName) {
 // 						 return caches.delete(cacheName);
 // 					   })
 // 				);

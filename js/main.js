@@ -217,7 +217,7 @@ addMarkersToMap = (restaurants = self.restaurants) => {
   Some code Mohamed Riaad study jam at https://www.youtube.com/watch?v=TxXwlOAXUko and https://www.youtube.com/watch?v=BfL3pprhnms
 **/
  if('serviceWorker' in navigator){
-  navigator.serviceWorker.register('./sW.js')
+  navigator.serviceWorker.register('/sW.js')
   .then((registration) =>{
       //reg succeeded
       if(registration.installing){
