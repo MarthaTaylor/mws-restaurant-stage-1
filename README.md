@@ -6,14 +6,12 @@
 - [Project Overview](#ProjectOverview)
 - [What I implemented](#WhythisProject?)
 - [Built With](#BuiltWith)
-- [Live View](#LiveView)
 - [Installation](#Installation)
 - [External Code Used in this Project](#ExternalCodeUsedinthisProject)
 - [Credits](#credits)
 - [Acknowledgements](#Acknowledgements)
 - [Contributing](#contributing)
 - [LICENSE](#LICENSE)
-
 
 
 ## Project Overview
@@ -39,10 +37,6 @@ JavaScript ES6 & ES5
 
 API taken data from
 [leafletjs](https://leafletjs.com/) with [Mapbox](https://www.mapbox.com/) 
-
-## Live View
-
- Be aware you need to download the project and run a server for the web functionality to work, if you wish to do this follow the steps outlined in the next section called "Installation". However you if you wish to view a live preview of the skelton structure of the website you can view it by clicking [here](https://marthataylor.github.io/mws-restaurant-stage-1/) 
 
 ## Installation
 

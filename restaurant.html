@@ -13,6 +13,8 @@ Some code from the walkthrough tutorials blogs by Matthew Cranford at https://ma
 <head>
   <!--add meta viewport to make website fully responsive -->
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- make the website compatible to Internet Explorer-->
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <!-- Normalize.css for better cross-browser consistency -->
   <link rel="stylesheet" src="//normalize-css.googlecode.com/svn/trunk/normalize.css" />
   <!-- Main CSS file -->
@@ -26,11 +28,11 @@ Some code from the walkthrough tutorials blogs by Matthew Cranford at https://ma
   <header tabindex="0">
     <!-- Beginning nav -->
     <nav>
-      <h1><a href="https://marthataylor.github.io/mws-restaurant-stage-1/">Restaurant Reviews</a></h1>
+      <h1><a href="/">Restaurant Reviews</a></h1>
     </nav>
     <!-- Beginning breadcrumb -->
       <ul id="breadcrumb" aria-label="Breadcrumb" aria-role="navigation home" tabindex="1">
-        <li><a href="https://marthataylor.github.io/mws-restaurant-stage-1/">Home</a></li>
+        <li><a href="/">Home</a></li>
       </ul>
     <!-- End breadcrumb -->
     <!-- End nav -->
@@ -66,7 +68,7 @@ Some code from the walkthrough tutorials blogs by Matthew Cranford at https://ma
 
   <!-- Beginning footer -->
   <footer id="footer" tabindex="4">
-    Copyright (c) 2017 <a href="https://marthataylor.github.io/mws-restaurant-stage-1"><strong>Restaurant Reviews</strong></a> All Rights Reserved.
+    Copyright (c) 2017 <a href="/"><strong>Restaurant Reviews</strong></a> All Rights Reserved.
   </footer>
   <!-- End footer -->
 
@@ -78,6 +80,7 @@ Some code from the walkthrough tutorials blogs by Matthew Cranford at https://ma
 
   <!-- Main javascript file -->
   <script type="text/javascript" src="js/restaurant_info.js"></script>
+  <script type="application/javascript" charset="utf-8" src="/sW.js"></script>
 
   <!-- Google Maps if i choose to use google maps api i need to add the script below -->
  <!--  <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA_tKbW6A5pQ-eupxI56myUnHLqYCzOjKo&libraries=places&callback=initMap"></script> -->

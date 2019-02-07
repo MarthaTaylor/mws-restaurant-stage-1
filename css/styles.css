@@ -276,16 +276,15 @@ nav h1 a {
   width: 50%;
 }
 
-
 #reviews-container {  
   padding: 30px 40px 80px;
 }
 
 #reviews-container h2 {
   color: darkorange;
-  text-shadow: 1px 1.5px 1.5px rgba(0,0,0,0.9);
+  font-weight: bolder;
   font-size: 24pt;
-  font-weight: 300;
+  font-weight: 400;
   letter-spacing: -1px;
   padding: 1pt 20px;
 }
@@ -320,16 +319,18 @@ nav h1 a {
 #reviews-list li>p:nth-child(1){
   color: black;
   font-size: 20px;
+  font-weight: bold;
 }
 
 #reviews-list li>p:nth-child(2){
   color: black;
-  font-size: 16px;
+  font-size: 20px;
 }
 
 #reviews-list li>p:nth-child(3){
-  color: black;
-  font-size: 16px;
+  color: darkorange;
+  font-weight: bolder;
+  font-size: 20px;
 }
 
 #restaurant-hours td {
@@ -337,47 +338,94 @@ nav h1 a {
   font-size: 14px;
 }
 
-/*Media Query Used to Order elemenets, I hope this will help with Responsiveness and Accesibility of the tab order of the page*/
-@media only screen and (max-width: 550px) {
-  
-
-.inside{
+/*Responsive design added using media query*/
+@media only screen and (max-width: 768px) {
+  .inside {
+    display: flex;
+    flex-direction: row;
+    width: 100vw
+  }
+  .inside header {
+    order: 0;
+    width: 100vw;
+  }
+  header {
+    display: flex;
+    flex-direction: column;
+  }
+  header nav {
+    order: 0;
+  }
+  header #breadcrumb {
+    order: 1;
+    width: 100vw;
+    padding-right: 0;
+    padding-left: 0;
+    text-align: center;
+  }
+  .inside #map-container {
+    order: 2;
+    top: 130px;
+    position: relative;
+    height: 300px;
+    width: 100vw;
+  }
+  .inside #restaurant-container {
+    order: 3;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100vw;
+    padding: 140px 5px 0 0;
+    margin: auto;
+    text-align: center;
+  }
+  .inside #reviews-container {
+    width: 100vw;
+    padding: 5px;
+    margin: auto;
+    display: flex;    
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+  .inside #footer {
+    order: 4;
+    width: 100vw;
+    padding: 10px;
+  }
+  #reviews-list {
+    width: 100vw;
+  }
+  #reviews-container h2 {
+    text-align: left;
+  }
+  #reviews-list li p {
   display: flex;
-  flex-direction: row;
-  width: 100vw;
-}
-
-.inside header{
-  order: 0;
-  width: 100vw;
-}
-
-header{
-  display: flex;
-  flex-direction: column;
-}
-
-.header nav{ 
-  order: 1;
-  width: 100vw;
-}
-
-.inside #map-caontainer{
-  order: 2;
-  width: 100%;
-}
-#map-caontainer{
-  order: 2;
-  width: 100%;
-}
-.inside #restaurant-container{
-  order: 3;
-  width: 100vw;
-}
-
-.inside #footer{
-  order: 4;
-  width: 100vw;
-}
-}
+  flex-wrap: wrap;
+  margin: 0 0 10px;
+  padding-top: 10px;
+  color: black;
+  font-size: 14px;
+  border-radius: 10px 5px;
+ }
+ #reviews-list li>p:nth-child(1){
+ color: black;
+ font-size: 14px;
+ font-weight: bold;
+ }
+ #reviews-list li>p:nth-child(2){
+ color: black;
+ font-size: 14px;
+ }
+ #reviews-list li>p:nth-child(3){
+ color: darkorange;
+ font-weight: bolder;
+ font-size: 14px;
+ }
+ #restaurant-hours td {
+ display: flex;
+ justify-content: space-around;
+ color: black;
+ font-size: 14px;
+ }
 
